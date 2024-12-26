@@ -69,14 +69,21 @@ header .shopping img{
 .card .checkOut{
 position: absolute;
 bottom: 0;
-width: 100%;
+width: 50%;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 }
-
+payment{
+    width: 20%;
+    height: 50%
+    cuesor: pointer;
+    align-items: left;
+    font-weight: bold;
+    
+}
 .card .checkOut div{
     background-color: #e8bc06;
-    width: 100%;
+    width: 50%;
     height: 70px;
     display: flex;
     justify-content: center;
