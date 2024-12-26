@@ -73,6 +73,7 @@ bottom: 0;
 width: 100%;
 display: grid;
 grid-template-columns: repeat(2,1fr);
+padding: 20px;
 }
 /* .payButton {
 background-color: #4CAF50; /* Green */
@@ -98,6 +99,7 @@ border-radius: 4px;
     align-items: center;
     font-weight: bold;
     cursor: pointer;
+    padding: 20px;
 }
 
 .card .checkOut div:nth-child(2){
