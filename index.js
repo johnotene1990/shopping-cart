@@ -17,7 +17,78 @@ let products = [
     { id: 1, name: 'Chicken', image: 'image1.jpg', price: 120 },
     { id: 2, name: 'Deer', image: 'image2.jpg', price: 130 },
     { id: 3, name: 'Tecnopop7', image: 'tecnopop7.jpg', price: 180 },
-    // Add more products as needed
+     {
+       id:4,
+        name:'Lamb',
+     image:'image4.jpg',
+        price:140000
+  },
+   {
+      id:5,
+     name:'womenwear',
+     image:'womenwear.png',
+       price:170000
+   },
+  {
+      id:6,
+      name:'Goat-ribs',
+       image:'image4.jpg',
+      price:140000
+   },
+   {
+      id:7,
+        name:'blackview tab1',
+       image:'blackview tab1.jpg',
+       price:110000
+  },
+   {
+     id:8,
+     name:'blackview tab2',
+      image:'blackview tab2.jpg',
+      price:124000
+  },
+ {
+     id:9,
+     name:'blackview',
+     image:'blackview.jpg',
+      price:160000
+   },
+   {
+      id:10,
+      name:'laptop1',
+       image:'laptop1.jpg',
+       price:115000
+    },
+   {
+      id:11,
+      name:'laptop2',
+      image:'laptop2.jpg',
+       price:134000
+    },
+   {
+      id:12,
+      name:'smartwatch',
+      image:'smartwatch.jpg',
+       price:115000
+   },
+   {
+       id:13,
+      name:'sweetperfume1',
+       image:'sweetperfume1.png',
+        price:180000
+  },
+   {
+       id:14,
+       name:'sweetperf3',
+       image:'sweetperf3.png',
+        price:180000
+     },
+    {
+         id:15,
+        name:'tecnophone2',
+        image:'tecnophone2.jpg',
+        price:180000
+    },
 ];
 
 let listCards = [];
