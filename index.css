@@ -53,9 +53,8 @@ header .shopping img{
      /* left: calc(100% - 500px);   */
      width: 500px;
     height: 100vh;
-    transition: 0.5s;
-    max-height: 400px; /* Adjust the height as needed */
-    overflow-y: auto;
+    max-height: 300px;
+    overflow-y: scroll; /* Ensure vertical scrolling */
     border: 1px solid #ccc;
     padding: 10px;
 }
