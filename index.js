@@ -199,13 +199,13 @@ alert('Proceeding to payment...');
 });
 
 // Function to calculate the total price
-function calculateTotalPrice() {
-let total = 0;
-listCards.forEach(item => {
-total += item.price * item.quantity;
-});
-return total;
-}
+// function calculateTotalPrice() {
+// let total = 0;
+// listCards.forEach(item => {
+// total += item.price * item.quantity;
+// });
+// return total;
+// }
 
 
 
