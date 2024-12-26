@@ -68,6 +68,7 @@ header .shopping img{
 
 .card .checkOut{
 position: absolute;
+background-color: #e8bc06;
 bottom: 0;
 width: 100%;
 display: grid;
