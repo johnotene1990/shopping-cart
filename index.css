@@ -49,8 +49,9 @@ header .shopping img{
     position: fixed;
     top: 0;
     left: 100%;
+     color: #e8bc06;
      background-color: #453E38; 
-     /* left: calc(100% - 500px);   */
+      left: calc(100% - 500px); 
      width: 500px;
     height: 100vh;
 }
