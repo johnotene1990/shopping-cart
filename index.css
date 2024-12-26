@@ -53,10 +53,6 @@ header .shopping img{
      /* left: calc(100% - 500px);   */
      width: 500px;
     height: 100vh;
-    max-height: 300px;
-    overflow-y: scroll; /* Ensure vertical scrolling */
-    border: 1px solid #ccc;
-    padding: 10px;
 }
 
 .card h1{
