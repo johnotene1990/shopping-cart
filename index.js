@@ -190,3 +190,13 @@ let updatePayPalButton = (totalPrice) => {
 
 // Initialize PayPal button with zero total
 updatePayPalButton(0);
+
+function toggleMenu() {
+const menu = document.querySelector('.navbar .menu');
+menu.classList.toggle('active');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+const menuIcon = document.querySelector('.menu-icon');
+menuIcon.addEventListener('click', toggleMenu);
+});
