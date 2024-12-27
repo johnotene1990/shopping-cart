@@ -47,6 +47,7 @@ header .shopping{
 header .shopping img{
     width: 40px;
     background-color: #e3e7e8;
+    margin-right: 10px;
 }
 
 .quantity{
