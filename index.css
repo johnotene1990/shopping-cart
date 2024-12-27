@@ -3,13 +3,6 @@ body{
     font-family: system-ui;
 }
 
-.navbar {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: none;
-padding: 10px 20px;
-}
 .navbar a {
 color: black;
 text-decoration: none;
@@ -24,6 +17,31 @@ font-size: 24px;
 font-weight: bold;
 }
 .navbar .menu {
+display: flex;
+}
+.navbar .menu a {
+display: block;
+}
+.navbar .menu-icon {
+display: none;
+font-size: 24px;
+cursor: pointer;
+}
+@media (max-width: 768px) {
+.navbar .menu {
+display: none;
+flex-direction: column;
+width: 100%;
+}
+.navbar .menu a {
+padding: 10px;
+border-top: 1px solid #575757;
+}
+.navbar .menu-icon {
+display: block;
+}
+}
+.navbar .menu.active {
 display: flex;
 }
 
