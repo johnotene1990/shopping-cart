@@ -2,6 +2,30 @@ body{
     background-color: #e3e7e8;
     font-family: system-ui;
 }
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #4CAF50;
+padding: 10px 20px;
+}
+.navbar a {
+color: white;
+text-decoration: none;
+padding: 14px 20px;
+transition: background-color 0.3s;
+}
+.navbar a:hover {
+background-color: #45a049;
+}
+.navbar .logo {
+font-size: 24px;
+font-weight: bold;
+}
+.navbar .menu {
+display: flex;
+}
 .container{
     width: 1000px;
     margin: auto;
