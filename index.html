@@ -8,15 +8,31 @@
     <script src="https://www.paypal.com/sdk/js?client-id=AQvtmamJicfdirTgtsc-sheknaoKygkqc9MXwUu_y9M4cMnJKYEJdio_8BhoNPxmSqqwjnspg3UoC-dh&currency=USD"></script>
 </head>
 <body>
-    <div class="container">
-    <div class="navbar">
-        <div class="logo">MyShop</div>
-        <div class="menu">
-        <a href="#home">Home</a>            
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-</div>
-</div>
+      <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logo -->
+            <a href="#" class="logo">ShopCart</a>
+
+            <!-- Toggle Button for Mobile -->
+            <div class="toggle-button" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/shop">Shop</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        
+    </script>
         <header>
             <h1>Your Shopping Cart</h1>
             <div class="shopping">
@@ -37,7 +53,6 @@
         </div>
     </div>
 
-    <script src="./index.js"></script>
 
     <footer style="background-color: #2c3e50; color: #ecf0f1; padding: 40px 20px; font-family: Arial, sans-serif;">
   <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -90,6 +105,12 @@
 </body>
 </html>
 
-    <script src="./index.js"></script>
+    <script src="./index.js">
+        // Toggle Menu for Mobile
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html> -->
