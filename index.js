@@ -190,19 +190,3 @@ let updatePayPalButton = (totalPrice) => {
 
 // Initialize PayPal button with zero total
 updatePayPalButton(0);
-
-// Add event listener to the Pay Now button
-// document.querySelector('.payButton').addEventListener('click', function() {
-// let totalPrice = calculateTotalPrice(); // Function to calculate the total price
-// updatePayPalButton(totalPrice);
-// alert('Proceeding to payment...');
-// });
-
-// Function to calculate the total price
-// function calculateTotalPrice() {
-// let total = 0;
-// listCards.forEach(item => {
-// total += item.price * item.quantity;
-// });
-// return total;
-// }
